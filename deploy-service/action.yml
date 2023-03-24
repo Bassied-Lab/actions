@@ -90,7 +90,7 @@ runs:
       with:
         token: ${{ inputs.github-token }}
         repository: Bassied-Lab/infra-helm-chart
-        ref: master
+        ref: main
         path: infra-helm-chart
 
     - name: Configure AWS credentials
